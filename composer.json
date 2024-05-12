@@ -16,13 +16,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gameq3new\\Providers\\Gameq3newServiceProvider"
+                "Gameq3\\Providers\\Gameq3ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Gameq3new\\": "src"
+            "Gameq3\\": "src"
         }
     }
 }
