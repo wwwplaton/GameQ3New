@@ -5,6 +5,7 @@ namespace Gameq3\Providers;
 use Illuminate\Support\ServiceProvider;
 use Gameq3\Console\Commands\ExampleCommand;
 use Gameq3\Console\Commands\MakePackage;
+use GameQ3\GameQ3;
 
 class GameQ3ServiceProvider extends ServiceProvider
 {
@@ -27,12 +28,9 @@ class GameQ3ServiceProvider extends ServiceProvider
     public function boot()
     {
 
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                ExampleCommand::class,
-                
-            ]);
-        }
+        $this->app->singleton('gameq3', function () {
+            return new GameQ3();
+        });
 
     }
 }
