@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Gameq3\Console\Commands\ExampleCommand;
 use Gameq3\Console\Commands\MakePackage;
 
-class LaravelGameQ3ServiceProvider extends ServiceProvider
+class GameQ3ServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
