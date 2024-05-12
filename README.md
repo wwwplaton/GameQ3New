@@ -9,5 +9,5 @@ GameQ изменен под свой нужды
 ## Установка из composer
 
 ```  
-composer require wwwplaton/gameq3
+composer require wwwplaton/gameq3new
 ```
