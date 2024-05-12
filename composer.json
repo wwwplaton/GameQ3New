@@ -1,0 +1,28 @@
+{
+    "name": "wwwplaton/gameq3new",
+    "description": "GameQ3 изменен под свой нужды",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wwwplaton",
+            "email": "xxxplaton@ya.ru",
+            "homepage": "https://github.com/wwwplaton/gameq3new"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gameq3new\\Providers\\Gameq3newServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Gameq3new\\": "src"
+        }
+    }
+}
