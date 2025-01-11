@@ -28,7 +28,7 @@ class Rust extends \GameQ3\Protocols\Source {
 
 	protected $query_port = 28016;
 	protected $connect_port = 28015;
-	//protected $ports_type = self::PT_DIFFERENT_COMPUTABLE;
+	//protected $ports_type = self::PT_DIFFERENT_NONCOMPUTABLE_VARIABLE;
 
 	
 	public function init() {

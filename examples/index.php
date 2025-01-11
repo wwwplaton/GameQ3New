@@ -9,14 +9,10 @@ $servers = array(
 	array(
 		'id' => 'RUST',
 		'type' => 'rust',
-		'connect_host' => '208.103.169.85:28010',
-		'connect_port' => 28015,
+		'connect_host' => '88.211.252.139:23473',
+		'connect_port' => 23474,
 	),
-	array(
-		'id' => 'CS 1.6 server',
-		'type' => 'cs',
-		'connect_host' => '62.122.213.230:27015',
-	)
+
 );
 
 
@@ -48,7 +44,7 @@ foreach($servers as $server) {
 }
 
 $results = $gq->requestAllData();
-
+var_dump($results);exit;
 
 // Some functions to print the results
 function print_results($results) {
